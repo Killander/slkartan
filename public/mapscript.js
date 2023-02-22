@@ -36,9 +36,9 @@ const marker_id_map_samtrafiken_train = new Map();
 
 
 function addVehicle(vehicle, marker_id_map, layer, transport_type) {
-    let id = vehicle.Position.vehicle.id
-    let latitude = vehicle.Position.position.latitude
-    let longitude = vehicle.Position.position.longitude
+    let id = vehicle.vehicle.id
+    let latitude = vehicle.position.latitude
+    let longitude = vehicle.position.longitude
 
 
     let newVehicle;
@@ -60,7 +60,7 @@ function addVehicle(vehicle, marker_id_map, layer, transport_type) {
     }
 
 
-    newVehicle.bindPopup('<pre>' + JSON.stringify(vehicle.Position, null, '  ') + '</pre>');
+    newVehicle.bindPopup('<pre>' + JSON.stringify(vehicle, null, '  ') + '</pre>');
     newVehicle.setLatLng(L.latLng(latitude, longitude))
 }
 
@@ -79,8 +79,9 @@ export function getVehicles() {
             const obj = FeedMessage.read(pbf);
             return obj.entity;
         })
-        .then(data => console.log(data))
-        //.then(data => addVehicles(data))
+        .then(data => data.map(x => x.vehicle))
+        //.then(data => console.log(data))
+        .then(data => addVehicles(data))
         .catch(error => {
             console.error('There was a problem fetching vehicles:', error);
             clearInterval(interval)
@@ -104,6 +105,7 @@ function delay(time) {
 
 
 function addVehicles(data) {
+data.forEach(v => addVehicle(v, marker_id_map_samtrafiken_bus, layer_samtrafiken_bus, "BUS"));
 
     //   if (data.samtrafiken_busses != null) {
     //       data.samtrafiken_busses.forEach(v => addVehicle(v, marker_id_map_samtrafiken_bus, layer_samtrafiken_bus, TRANSPORT.SAMTRAFIKEN_BUS))
