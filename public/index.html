@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <style>
+      #map {
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+	<script type="module" src="./mapscript.js"></script>
+    <script type="module">
+               import * as ms from './mapscript.js';
+               window.ms = ms
+               ms.getVehicles()
+               //const interval = setInterval(ms.getVehicles, 2000);
+    </script>
+  </body>
+</html>
+
+
+
