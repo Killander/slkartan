@@ -55,7 +55,7 @@ function addVehicle(vehicle, marker_id_map, layer, transport_code) {
             icon: L.divIcon({
                 html: utils.getVehicleIconForTransport(transport_code),
                 className: "svg-icon",
-                iconAnchor: [15, 15],
+                iconAnchor: [12, 12],
             })
         })
 
