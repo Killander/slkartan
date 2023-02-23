@@ -1,7 +1,9 @@
-//import * as utils from '/vehicle-positions/static/js/utils.js';
-//import {TRANSPORT} from '/vehicle-positions/static/js/utils.js';
+import * as utils from './utils.js';
 import * as pb from './gtfs-realtime.browser.proto.js';
 import * as pbf from './pbf.js';
+
+import routes from './routes.json' assert { type: "json"};
+import trips from './trips.json' assert { type: "json"};
 
 // init
 
@@ -17,8 +19,6 @@ const initial_zoom = 13;
 const map = L.map("map", config).setView([initial_lat, initial_lng], initial_zoom);
 const lightMap = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
-
-
 let layer_samtrafiken_bus = L.layerGroup().addTo(map);
 let layer_samtrafiken_vessel = L.layerGroup().addTo(map);
 let layer_samtrafiken_metro = L.layerGroup().addTo(map);
@@ -27,38 +27,42 @@ let layer_samtrafiken_train = L.layerGroup().addTo(map);
 
 //let layerControl = L.control.layers(baseMaps, overlayMaps, {collapsed: false}).addTo(map);
 
-
 const marker_id_map_samtrafiken_bus = new Map();
 const marker_id_map_samtrafiken_vessel = new Map();
 const marker_id_map_samtrafiken_metro = new Map();
 const marker_id_map_samtrafiken_tram = new Map();
 const marker_id_map_samtrafiken_train = new Map();
 
+const tripMap = new Map();
+const routeMap = new Map();
 
-function addVehicle(vehicle, marker_id_map, layer, transport_type) {
+export function init() {
+    routes.forEach(r => routeMap.set(r.route_id, r));
+    trips.forEach(t => tripMap.set(t.trip_id, t));
+}
+
+function addVehicle(vehicle, marker_id_map, layer, transport_code) {
     let id = vehicle.vehicle.id
     let latitude = vehicle.position.latitude
     let longitude = vehicle.position.longitude
-
 
     let newVehicle;
     if (marker_id_map.has(id)) {
         newVehicle = layer.getLayer(marker_id_map.get(id))
 
-
     } else {
         newVehicle = L.marker([initial_lat, initial_lng], {
             icon: L.divIcon({
-                //html: utils.getVehicleIconForTransport(transport_type), className: "svg-icon", iconAnchor: [15, 15],
+                html: utils.getVehicleIconForTransport(transport_code),
+                className: "svg-icon",
+                iconAnchor: [15, 15],
             })
         })
-
 
         layer.addLayer(newVehicle)
         let marker_id = layer.getLayerId(newVehicle)
         marker_id_map.set(id, marker_id)
     }
-
 
     newVehicle.bindPopup('<pre>' + JSON.stringify(vehicle, null, '  ') + '</pre>');
     newVehicle.setLatLng(L.latLng(latitude, longitude))
@@ -80,7 +84,8 @@ export function getVehicles() {
             return obj.entity;
         })
         .then(data => data.map(x => x.vehicle))
-        //.then(data => console.log(data))
+        .then(data => data.filter(x => !!x.trip))
+        .then(data => enrichVehicles(data))
         .then(data => addVehicles(data))
         .catch(error => {
             console.error('There was a problem fetching vehicles:', error);
@@ -103,9 +108,21 @@ function delay(time) {
     return new Promise(resolve => setTimeout(resolve, time));
 }
 
+function enrichVehicles(data) {
+    return data.map(v => {
+        let trip = tripMap.get(parseInt(v.trip.trip_id))
+        if (trip != null) {
+            let route = routeMap.get(trip.route_id)
+            v.vehicle.label = route.route_short_name
+            v.vehicle.type = route.route_type
+        }
+        return v;
+    });
+}
 
 function addVehicles(data) {
-data.forEach(v => addVehicle(v, marker_id_map_samtrafiken_bus, layer_samtrafiken_bus, "BUS"));
+
+    data.forEach(v => addVehicle(v, marker_id_map_samtrafiken_bus, layer_samtrafiken_bus, v.vehicle.type));
 
     //   if (data.samtrafiken_busses != null) {
     //       data.samtrafiken_busses.forEach(v => addVehicle(v, marker_id_map_samtrafiken_bus, layer_samtrafiken_bus, TRANSPORT.SAMTRAFIKEN_BUS))

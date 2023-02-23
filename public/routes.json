@@ -1,0 +1,4962 @@
+[
+  {
+    "route_id": 9011001000100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 1,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001000200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 2,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001000300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 3,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001000400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 4,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001001000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 10,
+    "route_long_name": "Blå linjen",
+    "route_type": 401,
+    "route_desc": "tunnelbanans blå linje"
+  },
+  {
+    "route_id": 9011001001100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 11,
+    "route_long_name": "Blå linjen",
+    "route_type": 401,
+    "route_desc": "tunnelbanans blå linje"
+  },
+  {
+    "route_id": 9011001001200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 12,
+    "route_long_name": "Nockebybanan",
+    "route_type": 900,
+    "route_desc": "Nockebybanan"
+  },
+  {
+    "route_id": 9011001001300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 13,
+    "route_long_name": "Röda linjen",
+    "route_type": 401,
+    "route_desc": "tunnelbanans röda linje"
+  },
+  {
+    "route_id": 9011001001400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 14,
+    "route_long_name": "Röda linjen",
+    "route_type": 401,
+    "route_desc": "tunnelbanans röda linje"
+  },
+  {
+    "route_id": 9011001001700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 17,
+    "route_long_name": "Gröna linjen",
+    "route_type": 401,
+    "route_desc": "tunnelbanans gröna linje"
+  },
+  {
+    "route_id": 9011001001800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 18,
+    "route_long_name": "Gröna linjen",
+    "route_type": 401,
+    "route_desc": "tunnelbanans gröna linje"
+  },
+  {
+    "route_id": 9011001001900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 19,
+    "route_long_name": "Gröna linjen",
+    "route_type": 401,
+    "route_desc": "tunnelbanans gröna linje"
+  },
+  {
+    "route_id": 9011001002100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 21,
+    "route_long_name": "Lidingöbanan",
+    "route_type": 900,
+    "route_desc": "Lidingöbanan"
+  },
+  {
+    "route_id": 9011001002700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 27,
+    "route_long_name": "Kårstalinjen",
+    "route_type": 900,
+    "route_desc": "Roslagsbanan"
+  },
+  {
+    "route_id": "9011001002700000-27S",
+    "agency_id": 14010000000001000,
+    "route_short_name": "27S",
+    "route_long_name": "Kårstalinjen",
+    "route_type": 900,
+    "route_desc": "Roslagsbanan"
+  },
+  {
+    "route_id": 9011001002800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 28,
+    "route_long_name": "Österskärslinjen",
+    "route_type": 900,
+    "route_desc": "Roslagsbanan"
+  },
+  {
+    "route_id": "9011001002800000-28S",
+    "agency_id": 14010000000001000,
+    "route_short_name": "28S",
+    "route_long_name": "Österskärslinjen",
+    "route_type": 900,
+    "route_desc": "Roslagsbanan"
+  },
+  {
+    "route_id": "9011001002800000-28X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "28X",
+    "route_long_name": "Österskärslinjen",
+    "route_type": 900,
+    "route_desc": "Roslagsbanan"
+  },
+  {
+    "route_id": 9011001002900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 29,
+    "route_long_name": "Näsbyparkslinjen",
+    "route_type": 900,
+    "route_desc": "Roslagsbanan"
+  },
+  {
+    "route_id": 9011001005300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 53,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001005500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 55,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001005600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 56,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001006500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 65,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001006600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 66,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001006900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 69,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001007100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 71,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001007200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 72,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001007400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 74,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001007600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 76,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001007700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 77,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001009100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 91,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001009400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 94,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001009600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 96,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001011200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 112,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001011300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 113,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001011400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 114,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001011500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 115,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001011600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 116,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001011700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 117,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001011800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 118,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001011900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 119,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001012400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 124,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001012700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 127,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001013300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 133,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001013400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 134,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001013500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 135,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001014100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 141,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001014200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 142,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001014300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 143,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001014400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 144,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001014700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 147,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001015100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 151,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001015200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 152,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001015300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 153,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001015500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 155,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001015700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 157,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001015800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 158,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001016000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 160,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001016100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 161,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001016300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 163,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001016400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 164,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001016500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 165,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001016700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 167,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001016800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 168,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001017200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 172,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001017300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 173,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001017600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 176,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": "9011001017600000-176E",
+    "agency_id": 14010000000001000,
+    "route_short_name": "176E",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001017700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 177,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": "9011001017700000-177E",
+    "agency_id": 14010000000001000,
+    "route_short_name": "177E",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001017800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 178,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001017900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 179,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001018000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 180,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001018100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 181,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001018300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 183,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001018400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 184,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001018500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "185H",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001018500000-185V",
+    "agency_id": 14010000000001000,
+    "route_short_name": "185V",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001018800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 188,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001019000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 190,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001019100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 191,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001019200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 192,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001019300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 193,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001019400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 194,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001019500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 195,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001019600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 196,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001019700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 197,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001019800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 198,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001019900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 199,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001020100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 201,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001020300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 203,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001020400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 204,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001020500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 205,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001020600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 206,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001021100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 211,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001021200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 212,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001022100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 221,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001022200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 222,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001022500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 225,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001029100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 291,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001029300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 293,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001030100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 301,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001030200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 302,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001030300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 303,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001030500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 305,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001030900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 309,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001031100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 311,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001031100000-311E",
+    "agency_id": 14010000000001000,
+    "route_short_name": "311E",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001031200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 312,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001031300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 313,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001031500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 315,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001031600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 316,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001031700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 317,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001032300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 323,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001032300000-323X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "323X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001032500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 325,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001039600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 396,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001040100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 401,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001040200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 402,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001040200000-402X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "402X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001040300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 403,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001040900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 409,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001041000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 410,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001041300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 413,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001041400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 414,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001041700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 417,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001041800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 418,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001042000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 420,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001042100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 421,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001042200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 422,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001042400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "424H",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001042400000-424V",
+    "agency_id": 14010000000001000,
+    "route_short_name": "424V",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001042500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 425,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001042600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 426,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001042800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 428,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001042800000-428X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "428X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001042900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 429,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001042900000-429X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "429X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001043000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 430,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001043000000-430X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "430X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001043200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 432,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001043300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 433,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001043400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 434,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001043500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 435,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001043500000-435C",
+    "agency_id": 14010000000001000,
+    "route_short_name": "435C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001043600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 436,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001043700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 437,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001043800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 438,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001043900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 439,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001044000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 440,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001044200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 442,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001044200000-442X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "442X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001044300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 443,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001044300000-443C",
+    "agency_id": 14010000000001000,
+    "route_short_name": "443C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001044400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 444,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001044500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 445,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001044500000-445C",
+    "agency_id": 14010000000001000,
+    "route_short_name": "445C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001044600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 446,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001044600000-446C",
+    "agency_id": 14010000000001000,
+    "route_short_name": "446C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001044800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "448C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001044900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 449,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001046100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 461,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001046200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 462,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001046300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 463,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001046500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 465,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001046900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 469,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001047100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 471,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001047400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 474,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001049100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 491,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001049200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 492,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001049600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 496,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001049700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 497,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001050300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 503,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001050400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 504,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001050400000-504Y",
+    "agency_id": 14010000000001000,
+    "route_short_name": "504Y",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001050500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 505,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001050600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 506,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001050700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 507,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001050800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 508,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001050900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 509,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001051300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 513,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001051400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 514,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001051500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 515,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001051600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 516,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001051700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 517,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001051800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 518,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001052000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 520,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001052000000-520E",
+    "agency_id": 14010000000001000,
+    "route_short_name": "520E",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001052200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "522H",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001052200000-522V",
+    "agency_id": 14010000000001000,
+    "route_short_name": "522V",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001052300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 523,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001052400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 524,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001052500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 525,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001052500000-525X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "525X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001052600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 526,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001052700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 527,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001052900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 529,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001053100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 531,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001053200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 532,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001053300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 533,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001053400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 534,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001053500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 535,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001053600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 536,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001053700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 537,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001053800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 538,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001053800000-538H",
+    "agency_id": 14010000000001000,
+    "route_short_name": "538H",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001053800000-538V",
+    "agency_id": 14010000000001000,
+    "route_short_name": "538V",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001053900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 539,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001054000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 540,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001054100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 541,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001054200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 542,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001054300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 543,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001054400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 544,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001054500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 545,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001054600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 546,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001054700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 547,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001055200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "552H",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001055200000-552V",
+    "agency_id": 14010000000001000,
+    "route_short_name": "552V",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001055400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 554,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001055500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 555,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001055600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 556,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001055800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 558,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001055800000-558X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "558X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001055900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 559,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001056000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 560,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001056000000-560X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "560X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001056100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 561,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001056200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 562,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001056700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 567,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001056800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 568,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001057000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 570,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001057100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 571,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001057100000-571X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "571X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001057300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 573,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001057400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 574,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001057500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 575,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001057500000-575X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "575X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001057600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 576,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001057700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 577,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001058000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 580,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001058100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 581,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001058200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 582,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001058300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 583,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001058900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 589,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001059100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 591,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001059200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 592,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001059500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 595,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001059700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 597,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001059800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 598,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001060100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 601,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001060200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 602,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001060200000-602X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "602X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001060400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 604,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001060500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 605,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001060600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 606,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001060700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 607,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001060800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 608,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001060900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 609,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001061000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 610,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001061100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 611,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001061300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 613,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001061400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 614,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001061500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 615,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001061600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 616,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001061700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 617,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001061800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 618,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001061900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 619,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001062000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 620,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001062000000-620X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "620X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001062100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 621,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001062200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 622,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001062200000-622X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "622X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001062300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "623H",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001062300000-623V",
+    "agency_id": 14010000000001000,
+    "route_short_name": "623V",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001062400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 624,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001062400000-624C",
+    "agency_id": 14010000000001000,
+    "route_short_name": "624C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001062500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 625,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001062600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 626,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001062700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 627,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001062800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 628,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001062800000-628C",
+    "agency_id": 14010000000001000,
+    "route_short_name": "628C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001062900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 629,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001063000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 630,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001063100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 631,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001063100000-631X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "631X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001063200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 632,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001063300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 633,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001063400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 634,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001063600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 636,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001063700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 637,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001063800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 638,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001063900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 639,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001064100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 641,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001064100000-641X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "641X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001064200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 642,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001064300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 643,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001064500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 645,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001064600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 646,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001064700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 647,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001064800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 648,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001064800000-648Z",
+    "agency_id": 14010000000001000,
+    "route_short_name": "648Z",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001064900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 649,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001065100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 651,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001065200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 652,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001065300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 653,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001065300000-653V",
+    "agency_id": 14010000000001000,
+    "route_short_name": "653V",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001065400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 654,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001065500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 655,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001065600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 656,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001065700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 657,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001065800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 658,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001066000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 660,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001066100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 661,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001066200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 662,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001066300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 663,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001066500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 665,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001066600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 666,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001066700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 667,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001066800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 668,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001067000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 670,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": "9011001067000000-670X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "670X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001067600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 676,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": "9011001067600000-676X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "676X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001068000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 680,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001068100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 681,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001068200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 682,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001068400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 684,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001068800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 688,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001069000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 690,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001069100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 691,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001069400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 694,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001069500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 695,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001069700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 697,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001069800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 698,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001069900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 699,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001070200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 702,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001070300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 703,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001070400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 704,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001070500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 705,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001070600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 706,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001070700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 707,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001070700000-707E",
+    "agency_id": 14010000000001000,
+    "route_short_name": "707E",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001070800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 708,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001070800000-708E",
+    "agency_id": 14010000000001000,
+    "route_short_name": "708E",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001070800000-708Y",
+    "agency_id": 14010000000001000,
+    "route_short_name": "708Y",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001070900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 709,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001071000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 710,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001071000000-710E",
+    "agency_id": 14010000000001000,
+    "route_short_name": "710E",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001071100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 711,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001071300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 713,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001071500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 715,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001071600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 716,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001071700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 717,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001071800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 718,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001071900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 719,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001072100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 721,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001072100000-721X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "721X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001072200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 722,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001072300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 723,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001072500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 725,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001072600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 726,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001072700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 727,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001072900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 729,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001073700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 737,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001073800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 738,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001074000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 740,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001074000000-740X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "740X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001074200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 742,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001074400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 744,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001074800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 748,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001075000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 750,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001075100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 751,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001075300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 753,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001075400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 754,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001075600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 756,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001077900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 779,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001078000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 780,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001078000000-780X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "780X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001078100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 781,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001078200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 782,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001078300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 783,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001078400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 784,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001078400000-784X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "784X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001078600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 786,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001078700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 787,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001078700000-787X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "787X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001078800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 788,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001078900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 789,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001079100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 791,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001079200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 792,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001079400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 794,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001079500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 795,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001079700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 797,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001079800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 798,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001080100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 801,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001080600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 806,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001080700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 807,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001080900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 809,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001080900000-809C",
+    "agency_id": 14010000000001000,
+    "route_short_name": "809C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001081000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 810,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001081200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "812C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001081300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "813C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001081500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "815C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001081600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 816,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001081800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "818C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001081900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 819,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001082100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 821,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001082200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 822,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001082300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 823,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001082400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 824,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001082700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 827,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001082800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 828,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001082900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 829,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001083000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 830,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001083100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 831,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001083300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 833,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001083400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 834,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001083500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 835,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001083600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 836,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001083700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 837,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001083900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 839,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001084000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 840,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001084200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 842,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001084300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 843,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001084500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 845,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001084600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 846,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001084700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 847,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001084800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 848,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001084900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 849,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001085000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 850,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001085200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 852,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001085400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 854,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001085600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 856,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001085800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 858,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001086100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 861,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001086500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 865,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001086900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 869,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001087300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 873,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001087500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 875,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001088900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 889,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001089000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 890,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001089200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 892,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001089300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 893,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011005090100000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 901,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011005090300000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 903,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011005090400000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 904,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011005090500000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 905,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011005090800000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 908,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011005090900000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 909,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011006094100000,
+    "agency_id": 14010000000002028,
+    "route_short_name": 941,
+    "route_long_name": "Vaxholm-Rindö",
+    "route_type": 1000,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011005095100000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 951,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011005095200000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 952,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011005095500000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 955,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011005095900000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 959,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001098600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "43A",
+    "route_long_name": "Ersätter Pendeltåget",
+    "route_type": 700,
+    "route_desc": "Ersättningsbuss"
+  },
+  {
+    "route_id": "9011001098600000-43H",
+    "agency_id": 14010000000001000,
+    "route_short_name": "43H",
+    "route_long_name": "Ersätter Pendeltåget",
+    "route_type": 700,
+    "route_desc": "Ersättningsbuss"
+  },
+  {
+    "route_id": "9011001098600000-43S",
+    "agency_id": 14010000000001000,
+    "route_short_name": "43S",
+    "route_long_name": "Ersätter Pendeltåget",
+    "route_type": 700,
+    "route_desc": "Ersättningsbuss"
+  },
+  {
+    "route_id": 9011002099300000,
+    "agency_id": 14010000000001916,
+    "route_short_name": "UL808",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011002099400000,
+    "agency_id": 14010000000001916,
+    "route_short_name": "UL806",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011002099500000,
+    "agency_id": 14010000000001916,
+    "route_short_name": "UL805",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001074500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 745,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001064400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 644,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001054800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 548,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001073100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 731,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001074300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 743,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001045200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 452,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001045300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 453,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011005090600000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 906,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011005090700000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 907,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001078500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 785,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001071400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 714,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001046700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 467,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001052800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 528,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001067700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 677,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001068500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 685,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011002099000000,
+    "agency_id": 14010000000001916,
+    "route_short_name": "UL857",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011005097100000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 971,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011005091400000,
+    "agency_id": 14010000000002004,
+    "route_short_name": 914,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001092500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "25M",
+    "route_long_name": "Ersätter Saltsjöbanan",
+    "route_type": 700,
+    "route_desc": "Ersättningsbuss"
+  },
+  {
+    "route_id": 9011001092600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "26M",
+    "route_long_name": "Ersätter Saltsjöbanan",
+    "route_type": 700,
+    "route_desc": "Ersättningsbuss"
+  },
+  {
+    "route_id": 9011001086200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 862,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001051200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 512,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001066400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 664,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001059300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 593,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011008000300000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 3,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008000700000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 7,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008000200000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 2,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008000400000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 4,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008000500000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 5,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008000800000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 8,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008000900000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 9,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008001100000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 11,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008001200000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 12,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008001300000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 13,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008001400000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 14,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008001600000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 16,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008001700000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 17,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008001900000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 19,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008002000000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 20,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008002100000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 21,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008002200000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 22,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008002300000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 23,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008002500000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 25,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008002600000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 26,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008002700000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 27,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008002800000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 28,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008002900000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 29,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008003000000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 30,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008003100000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 31,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008003400000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 34,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008003500000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 35,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008003600000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 36,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008004000000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 40,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008004100000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 41,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011008004600000,
+    "agency_id": 14010000000002072,
+    "route_short_name": 46,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": "9011008004600000-Svävare",
+    "agency_id": 14010000000002072,
+    "route_short_name": "Svävare",
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Waxholmsbolagets"
+  },
+  {
+    "route_id": 9011001068900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 689,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001028200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 282,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001063500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 635,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001089800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 898,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001068700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 687,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001000700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 7,
+    "route_long_name": "Spårväg city",
+    "route_type": 900,
+    "route_desc": "Spårväg City"
+  },
+  {
+    "route_id": 9011001057900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 579,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001069600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 696,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001048900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 489,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001044100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 441,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001044700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 447,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001050200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 502,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001074900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 749,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001075200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 752,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001075800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 758,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001075900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 759,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001076100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 761,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001048000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "480C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001098200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "40K",
+    "route_long_name": "Ersätter Pendeltåget",
+    "route_type": 700,
+    "route_desc": "Ersättningsbuss"
+  },
+  {
+    "route_id": 9011001008000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 80,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Pendelbåt"
+  },
+  {
+    "route_id": "9011001008000000-80X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "80X",
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Pendelbåt"
+  },
+  {
+    "route_id": 9011001045400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 454,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001081400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 814,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001092100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 921,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001092300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 923,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001042300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 423,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001041100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "411C",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001045800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 458,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001046800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 468,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001077600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 776,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001077800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 778,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001098100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 981,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001005000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 50,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001005400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 54,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001009300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 93,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001006700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 67,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001006100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 61,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001005700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 57,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001023800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 238,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001082000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 820,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001080200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 802,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001014500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 145,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001015900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 159,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001015600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 156,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001068300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 683,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001008200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 82,
+    "route_long_name": "Djurgårdsfärjan",
+    "route_type": 1000,
+    "route_desc": "Pendelbåt"
+  },
+  {
+    "route_id": 9011001008900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 89,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Pendelbåt"
+  },
+  {
+    "route_id": 9011001095300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 953,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001097800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 978,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001097900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 979,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001055000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 550,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001059900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 599,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001096600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "26C",
+    "route_long_name": "Ersätter Saltsjöbanan",
+    "route_type": 700,
+    "route_desc": "Ersättningsbuss"
+  },
+  {
+    "route_id": 9011001095800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "25F",
+    "route_long_name": "Ersätter Saltsjöbanan",
+    "route_type": 700,
+    "route_desc": "Ersättningsbuss"
+  },
+  {
+    "route_id": 9011001004000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 40,
+    "route_long_name": "",
+    "route_type": 100,
+    "route_desc": "Pendeltåg"
+  },
+  {
+    "route_id": 9011001004100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 41,
+    "route_long_name": "",
+    "route_type": 100,
+    "route_desc": "Pendeltåg"
+  },
+  {
+    "route_id": 9011001004200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "42X",
+    "route_long_name": "",
+    "route_type": 100,
+    "route_desc": "Pendeltåg"
+  },
+  {
+    "route_id": 9011001004300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 43,
+    "route_long_name": "",
+    "route_type": 100,
+    "route_desc": "Pendeltåg"
+  },
+  {
+    "route_id": "9011001004300000-43X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "43X",
+    "route_long_name": "",
+    "route_type": 100,
+    "route_desc": "Pendeltåg"
+  },
+  {
+    "route_id": 9011001004400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 44,
+    "route_long_name": "",
+    "route_type": 100,
+    "route_desc": "Pendeltåg"
+  },
+  {
+    "route_id": 9011001004800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 48,
+    "route_long_name": "",
+    "route_type": 100,
+    "route_desc": "Pendeltåg"
+  },
+  {
+    "route_id": 9011001000600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 6,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": "blåbuss"
+  },
+  {
+    "route_id": 9011001079600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 796,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001080800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 808,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001080500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 805,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001056400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 564,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001056400000-564H",
+    "agency_id": 14010000000001000,
+    "route_short_name": "564H",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001056400000-564V",
+    "agency_id": 14010000000001000,
+    "route_short_name": "564V",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001056400000-564Y",
+    "agency_id": 14010000000001000,
+    "route_short_name": "564Y",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001055300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "553H",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001055300000-553V",
+    "agency_id": 14010000000001000,
+    "route_short_name": "553V",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001065000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 650,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001007500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 75,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001058400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 584,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001040500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 405,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001048400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 484,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001059000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 590,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001080400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 804,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001081700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 817,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001082600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 826,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001083200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 832,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001084400000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 844,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001083800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 838,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001035000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 350,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001061200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 612,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": "9011001061200000-612X",
+    "agency_id": 14010000000001000,
+    "route_short_name": "612X",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001012900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 129,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001080300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 803,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001017500000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 175,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001008300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 83,
+    "route_long_name": "",
+    "route_type": 1000,
+    "route_desc": "Pendelbåt"
+  },
+  {
+    "route_id": 9011001003000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 30,
+    "route_long_name": "Tvärbanan",
+    "route_type": 900,
+    "route_desc": "Tvärbanan"
+  },
+  {
+    "route_id": 9011001003100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 31,
+    "route_long_name": "Tvärbanan",
+    "route_type": 900,
+    "route_desc": "Tvärbanan"
+  },
+  {
+    "route_id": 9011001031800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 318,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001071200000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 712,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001041600000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 416,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001051100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 511,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001066900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "669Z",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001064000000,
+    "agency_id": 14010000000001000,
+    "route_short_name": "640Z",
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001077700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 777,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001074700000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 747,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  },
+  {
+    "route_id": 9011001096100000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 961,
+    "route_long_name": "Närtrafiken Täby",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001096800000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 968,
+    "route_long_name": "Närtrafiken Åkersberga",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001096900000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 969,
+    "route_long_name": "Närtrafiken Norrtälje",
+    "route_type": 700,
+    "route_desc": "Närtrafiken"
+  },
+  {
+    "route_id": 9011001033300000,
+    "agency_id": 14010000000001000,
+    "route_short_name": 333,
+    "route_long_name": "",
+    "route_type": 700,
+    "route_desc": ""
+  }
+]
