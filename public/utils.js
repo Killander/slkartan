@@ -18,5 +18,7 @@ export function getVehicleIconForTransport(transportCode) {
             return `<img src="./bus-icon.svg">`
         case TRANSPORT.BOAT:
             return `<img src="./bus-icon.svg">`
+        default:
+            return `<img src="./bus-icon.svg">`
     }
 }
