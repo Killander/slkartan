@@ -1,12 +1,10 @@
-import * as utils from './utils.js';
-import * as pb from './gtfs-realtime.browser.proto.js';
-import * as pbf from './pbf.js';
-
 import routes from './routes.json' assert { type: "json"};
 import trips from './trips.json' assert { type: "json"};
+import * as pb from './gtfs-realtime.browser.proto.js';
+import * as pbf from './pbf.js';
+import * as utils from './utils.js';
 
 // init
-
 const trafiklab_api_key = "a2242a4330664e1ba8179c3cb677f9ff";
 
 let config = {
@@ -19,29 +17,29 @@ const initial_zoom = 13;
 const map = L.map("map", config).setView([initial_lat, initial_lng], initial_zoom);
 const lightMap = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
-let layer_samtrafiken_bus = L.layerGroup().addTo(map);
-let layer_samtrafiken_vessel = L.layerGroup().addTo(map);
-let layer_samtrafiken_metro = L.layerGroup().addTo(map);
-let layer_samtrafiken_tram = L.layerGroup().addTo(map);
-let layer_samtrafiken_train = L.layerGroup().addTo(map);
+const layer_train = L.layerGroup().addTo(map);
+const layer_metro = L.layerGroup().addTo(map);
+const layer_bus = L.layerGroup().addTo(map);
+const layer_tram = L.layerGroup().addTo(map);
+const layer_vessel = L.layerGroup().addTo(map);
+const layer_unknown = L.layerGroup().addTo(map);
 
-//let layerControl = L.control.layers(baseMaps, overlayMaps, {collapsed: false}).addTo(map);
+const marker_id_map_train = new Map();
+const marker_id_map_metro = new Map();
+const marker_id_map_bus = new Map();
+const marker_id_map_tram = new Map();
+const marker_id_map_vessel = new Map();
+const marker_id_map_unknown = new Map();
 
-const marker_id_map_samtrafiken_bus = new Map();
-const marker_id_map_samtrafiken_vessel = new Map();
-const marker_id_map_samtrafiken_metro = new Map();
-const marker_id_map_samtrafiken_tram = new Map();
-const marker_id_map_samtrafiken_train = new Map();
-
-const tripMap = new Map();
 const routeMap = new Map();
+const tripMap = new Map();
 
 export function init() {
     routes.forEach(r => routeMap.set(r.route_id, r));
     trips.forEach(t => tripMap.set(t.trip_id, t));
 }
 
-function addVehicle(vehicle, marker_id_map, layer, transport_code) {
+function addVehicle(vehicle, marker_id_map, layer) {
     let id = vehicle.vehicle.id
     let latitude = vehicle.position.latitude
     let longitude = vehicle.position.longitude
@@ -53,7 +51,7 @@ function addVehicle(vehicle, marker_id_map, layer, transport_code) {
     } else {
         newVehicle = L.marker([initial_lat, initial_lng], {
             icon: L.divIcon({
-                html: utils.getVehicleIconForTransport(transport_code),
+                html: utils.getVehicleIconForTransport(vehicle.vehicle.type),
                 className: "svg-icon",
                 iconAnchor: [12, 12],
             })
@@ -67,7 +65,6 @@ function addVehicle(vehicle, marker_id_map, layer, transport_code) {
     newVehicle.bindPopup('<pre>' + JSON.stringify(vehicle, null, '  ') + '</pre>');
     newVehicle.setLatLng(L.latLng(latitude, longitude))
 }
-
 
 export function getVehicles() {
     let interval
@@ -96,13 +93,11 @@ export function getVehicles() {
         });
 }
 
-
 function jsonPopup(feature, layer) {
     layer.on('click', function() {
         layer.bindPopup('<pre>' + JSON.stringify(feature.properties, null, '  ') + '</pre>');
     });
 }
-
 
 function delay(time) {
     return new Promise(resolve => setTimeout(resolve, time));
@@ -121,22 +116,19 @@ function enrichVehicles(data) {
 }
 
 function addVehicles(data) {
-
-    data.forEach(v => addVehicle(v, marker_id_map_samtrafiken_bus, layer_samtrafiken_bus, v.vehicle.type));
-
-    //   if (data.samtrafiken_busses != null) {
-    //       data.samtrafiken_busses.forEach(v => addVehicle(v, marker_id_map_samtrafiken_bus, layer_samtrafiken_bus, TRANSPORT.SAMTRAFIKEN_BUS))
-    //   }
-    //   if (data.samtrafiken_vessels != null) {
-    //       data.samtrafiken_vessels.forEach(v => addVehicle(v, marker_id_map_samtrafiken_vessel, layer_samtrafiken_vessel, TRANSPORT.SAMTRAFIKEN_VESSEL))
-    //   }
-    //   if (data.samtrafiken_metro != null) {
-    //       data.samtrafiken_metro.forEach(v => addVehicle(v, marker_id_map_samtrafiken_metro, layer_samtrafiken_metro, TRANSPORT.SAMTRAFIKEN_METRO))
-    //   }
-    //   if (data.samtrafiken_tram != null) {
-    //       data.samtrafiken_tram.forEach(v => addVehicle(v, marker_id_map_samtrafiken_tram, layer_samtrafiken_tram, TRANSPORT.SAMTRAFIKEN_TRAM))
-    //   }
-    //   if (data.samtrafiken_train != null) {
-    //       data.samtrafiken_train.forEach(v => addVehicle(v, marker_id_map_samtrafiken_train, layer_samtrafiken_train, TRANSPORT.SAMTRAFIKEN_TRAIN))
-    //   }
+    data.forEach(v => {
+        if (v.vehicle.type == utils.TRANSPORT.TRAIN) {
+            addVehicle(v, marker_id_map_train, layer_train)
+        } else if (v.vehicle.type == utils.TRANSPORT.METRO) {
+            addVehicle(v, marker_id_map_metro, layer_metro)
+        } else if (v.vehicle.type == utils.TRANSPORT.BUS) {
+            addVehicle(v, marker_id_map_bus, layer_bus)
+        } else if (v.vehicle.type == utils.TRANSPORT.TRAM) {
+            addVehicle(v, marker_id_map_tram, layer_tram)
+        } else if (v.vehicle.type == utils.TRANSPORT.VESSEL) {
+            addVehicle(v, marker_id_map_vessel, layer_vessel)
+        } else {
+            addVehicle(v, marker_id_map_unknown, layer_unknown)
+        }
+    });
 }
