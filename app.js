@@ -36,8 +36,9 @@ const server = http.createServer((req, res) => {
     }
 
     let fileName = req.url;
-    if (req.url === '/') fileName = 'index.html';
-    else if (!extension) {
+    if (req.url === '/') {
+        fileName = 'index.html';
+    } else if (!extension) {
         try {
             fs.accessSync(path.join(root, req.url + '.html'), fs.constants.F_OK);
             fileName = req.url + '.html';
