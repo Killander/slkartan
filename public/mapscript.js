@@ -1,5 +1,5 @@
-import routes from './routes.json' assert { type: "json"};
-import trips from './trips.json' assert { type: "json"};
+import routes from './routes.json' assert {type: "json"};
+import trips from './trips.json' assert {type: "json"};
 import * as pb from './gtfs-realtime.browser.proto.js';
 import * as pbf from './pbf.js';
 import * as utils from './utils.js';
@@ -8,8 +8,7 @@ import * as utils from './utils.js';
 const trafiklab_api_key = "a2242a4330664e1ba8179c3cb677f9ff";
 
 let config = {
-    minZoom: 7,
-    maxZoom: 18,
+    minZoom: 7, maxZoom: 18,
 };
 const initial_lat = 59.3265;
 const initial_lng = 18.0644;
@@ -47,9 +46,8 @@ function addVehicle(vehicle, marker_id_map, layer) {
     let newVehicle;
     if (marker_id_map.has(id)) {
         newVehicle = layer.getLayer(marker_id_map.get(id))
-        newVehicle.slideTo(	[latitude, longitude], {
-            duration: 2500,
-            keepAtCenter: false
+        newVehicle.slideTo([latitude, longitude], {
+            duration: 2500, keepAtCenter: false
         });
 
     } else {
@@ -69,8 +67,6 @@ function addVehicle(vehicle, marker_id_map, layer) {
     }
 
     newVehicle.bindPopup('<pre>' + JSON.stringify(vehicle, null, '  ') + '</pre>');
-
-    //newVehicle.setLatLng(L.latLng(latitude, longitude))
 }
 
 export function getVehicles() {

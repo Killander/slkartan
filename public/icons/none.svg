@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <rect x="3.326" y="3.005" width="17.347" height="17.989" style="stroke-linejoin: round; stroke-linecap: round; stroke: rgb(61, 61, 61); fill: rgb(214, 214, 214);" rx="8.674" ry="8.674"/>
-  <path fill-rule="evenodd" clip-rule="evenodd" style="fill: #0097da;"/>
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="12" cy="12" r="10"
+            style="stroke: rgb(61, 61, 61); fill: rgb(214, 214, 214);"
+    />
 </svg>
