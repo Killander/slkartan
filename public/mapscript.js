@@ -3,7 +3,6 @@ import trips from './trips.json' assert { type: "json"};
 import * as pb from './gtfs-realtime.browser.proto.js';
 import * as pbf from './pbf.js';
 import * as utils from './utils.js';
-import * as slider from './Leaflet.Marker.SlideTo.js';
 
 // init
 const trafiklab_api_key = "a2242a4330664e1ba8179c3cb677f9ff";
