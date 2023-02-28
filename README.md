@@ -1,5 +1,7 @@
 # SL Kartan
 
+Can be viewed online at: https://killander.github.io/slkartan/public/
+
 Requirements:
 * Node.js  
 
