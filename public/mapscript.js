@@ -1,5 +1,3 @@
-import routes from './routes.json' assert {type: "json"};
-import trips from './trips.json' assert {type: "json"};
 import * as pb from './gtfs-realtime.browser.proto.js';
 import * as pbf from './pbf.js';
 import * as utils from './utils.js';
@@ -34,8 +32,14 @@ const routeMap = new Map();
 const tripMap = new Map();
 
 export function init() {
-    routes.forEach(r => routeMap.set(r.route_id, r));
-    trips.forEach(t => tripMap.set(t.trip_id, t));
+    Promise.all([fetch('./routes.json').then(response => response.json())
+        .then(response => response.forEach(r => routeMap.set(r.route_id, r))), fetch('./trips.json').then(response => response.json())
+        .then(response => response.forEach(t => tripMap.set(t.trip_id, t))),]).then(([data1, data2]) => {
+        ms.getVehicles();
+        const interval = setInterval(ms.getVehicles, 2000);
+    }).catch((err) => {
+        console.log(err);
+    });
 }
 
 function addVehicle(vehicle, marker_id_map, layer) {

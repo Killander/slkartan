@@ -18,11 +18,8 @@
 <script src="./mapscript.js" type="module"></script>
 <script type="module">
     import * as ms from './mapscript.js';
-
     window.ms = ms;
     ms.init();
-    ms.getVehicles();
-    const interval = setInterval(ms.getVehicles, 2000);
 </script>
 </body>
 </html>
