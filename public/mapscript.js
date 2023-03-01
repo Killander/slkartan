@@ -75,13 +75,13 @@ function addVehicle(vehicle, marker_id_map, layer) {
 
 export function getVehicles() {
     let interval
-    fetch("https://opendata.samtrafiken.se/gtfs-rt/sl/VehiclePositions.pb?key=" + trafiklab_api_key).then(response => {
-        if (!response.ok) {
-            throw response
-        }
-        return response.arrayBuffer();
-    })
-
+    fetch("https://opendata.samtrafiken.se/gtfs-rt/sl/VehiclePositions.pb?key=" + trafiklab_api_key)
+        .then(response => {
+            if (!response.ok) {
+                throw response
+            }
+            return response.arrayBuffer();
+        })
         .then(data => {
             const pbf = new Pbf(new Uint8Array(data));
             const obj = FeedMessage.read(pbf);
@@ -106,7 +106,7 @@ function delay(time) {
 
 function enrichVehicles(data) {
     return data.map(v => {
-        let trip = tripMap.get(parseInt(v.trip.trip_id))
+        let trip = tripMap.get(v.trip.trip_id)
         if (trip != null) {
             let route = routeMap.get(trip.route_id)
             v.vehicle.label = route.route_short_name

@@ -1,9 +1,9 @@
 export const TRANSPORT = {
-    TRAIN: 100,
-    METRO: 401,
-    BUS: 700,
-    TRAM: 900,
-    VESSEL: 1000
+    TRAIN: "100",
+    METRO: "401",
+    BUS: "700",
+    TRAM: "900",
+    VESSEL: "1000"
 }
 
 export function getVehicleIconForTransport(transportCode) {
