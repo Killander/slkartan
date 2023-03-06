@@ -12,9 +12,9 @@ Requirements:
 
 ## Notes
 
-Todo daily: run  `node staticHelper.js`
+Run this daily: `node staticHelper.js`
 
-A script that downloads static routes.json & trips.json
+A script that downloads static route & trips
 
 1. Download sl.zip form: https://opendata.samtrafiken.se/gtfs/sl/sl.zip?key=87263c97bec14008a135b844f752f70b \
 2. Convert (txt/csv --> json) routes.txt & trips.txt to routes.json & trips.json
