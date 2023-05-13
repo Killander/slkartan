@@ -2,9 +2,12 @@
 
 Can be viewed online at: https://killander.github.io/slkartan/public/
 
-## To run localy
-
+## Install
 Requirements:
+* Node version 18.16.0
+* Npm version 9.5.1
+
+## To run localy
 
 1. Ensure that Node.js is installed
 2. Open Terminal in root folder and run `node app.js`
