@@ -2,7 +2,7 @@ const fs = require('fs');
 const http = require('http');
 const path = require('path');
 
-const port = 8000;
+const port = 7070;
 const directoryName = './public';
 
 const types = {

@@ -1,7 +1,49 @@
 #map {
   height: 100vh;
 }
+
+#searchBar {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
 img {
   width: 200%;
   height: 200%;
+}
+
+.leaflet-bar {
+    box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+    border-radius: 4px;
+}
+
+.locate-me-button {
+    background: white;
+    border: none;
+    width: 32px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.locate-me-button i {
+    color: #007bff;
+    font-size: 20px;
+}
+
+.blue-dot {
+    background-color: blue;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px rgba(0,0,255,0.2);
 }

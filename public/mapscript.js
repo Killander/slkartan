@@ -1,6 +1,7 @@
 import * as pb from './gtfs-realtime.browser.proto.js';
 import * as pbf from './pbf.js';
 import * as utils from './utils.js';
+import * as locationControl from './location.js';
 
 // init
 const trafiklab_api_key = "a2242a4330664e1ba8179c3cb677f9ff";
@@ -11,7 +12,7 @@ let config = {
 const initial_lat = 59.3265;
 const initial_lng = 18.0644;
 const initial_zoom = 13;
-const map = L.map("map", config).setView([initial_lat, initial_lng], initial_zoom);
+export const map = L.map("map", config).setView([initial_lat, initial_lng], initial_zoom);
 const lightMap = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
 const layer_train = L.layerGroup().addTo(map);
@@ -32,20 +33,26 @@ const routeMap = new Map();
 const tripMap = new Map();
 
 export function init() {
-    Promise.all([fetch('./routes.json').then(response => response.json())
-        .then(response => response.forEach(r => routeMap.set(r.route_id, r))), fetch('./trips.json').then(response => response.json())
-        .then(response => response.forEach(t => tripMap.set(t.trip_id, t))),]).then(([data1, data2]) => {
-        ms.getVehicles();
-        const interval = setInterval(ms.getVehicles, 2000);
+    Promise.all([
+        fetch('./routes.json').then(response => response.json())
+            .then(response => response.forEach(r => routeMap.set(r.route_id, r))),
+        fetch('./trips.json').then(response => response.json())
+            .then(response => response.forEach(t => tripMap.set(t.trip_id, t))),
+    ]).then(([data1, data2]) => {
+        getVehicles();
+        const interval = setInterval(getVehicles, 2000);
     }).catch((err) => {
         console.log(err);
     });
+
+    locationControl.addLocateMeControl();
+    locationControl.locateMe();
 }
 
 function addVehicle(vehicle, marker_id_map, layer) {
-    let id = vehicle.vehicle.id
-    let latitude = vehicle.position.latitude
-    let longitude = vehicle.position.longitude
+    let id = vehicle.vehicle.id;
+    let latitude = vehicle.position.latitude;
+    let longitude = vehicle.position.longitude;
 
     let newVehicle;
     if (marker_id_map.has(id)) {
@@ -55,30 +62,28 @@ function addVehicle(vehicle, marker_id_map, layer) {
         });
 
     } else {
-        newVehicle = L.marker([initial_lat, initial_lng], {
+        newVehicle = L.marker([latitude, longitude], {
             icon: L.divIcon({
                 html: utils.getVehicleIconForTransport(vehicle.vehicle.type),
                 className: "svg-icon",
                 iconAnchor: [12, 12],
             })
-        })
+        });
 
-        layer.addLayer(newVehicle)
-        let marker_id = layer.getLayerId(newVehicle)
-        marker_id_map.set(id, marker_id)
-        newVehicle.setLatLng(L.latLng(latitude, longitude))
-
+        layer.addLayer(newVehicle);
+        let marker_id = layer.getLayerId(newVehicle);
+        marker_id_map.set(id, marker_id);
     }
 
     newVehicle.bindPopup('<pre>' + JSON.stringify(vehicle, null, '  ') + '</pre>');
 }
 
 export function getVehicles() {
-    let interval
+    let interval;
     fetch("https://opendata.samtrafiken.se/gtfs-rt/sl/VehiclePositions.pb?key=" + trafiklab_api_key)
         .then(response => {
             if (!response.ok) {
-                throw response
+                throw response;
             }
             return response.arrayBuffer();
         })
@@ -93,10 +98,10 @@ export function getVehicles() {
         .then(data => addVehicles(data))
         .catch(error => {
             console.error('There was a problem fetching vehicles:', error);
-            clearInterval(interval)
-            const five_minuets = 5 * 60 * 1000;
-            console.log('Retrying fetch in 5 minuets');
-            delay(five_minuets).then(() => interval = setInterval(getVehicles, 2000));
+            clearInterval(interval);
+            const five_minutes = 5 * 60 * 1000;
+            console.log('Retrying fetch in 5 minutes');
+            delay(five_minutes).then(() => interval = setInterval(getVehicles, 2000));
         });
 }
 
@@ -106,11 +111,11 @@ function delay(time) {
 
 function enrichVehicles(data) {
     return data.map(v => {
-        let trip = tripMap.get(v.trip.trip_id)
+        let trip = tripMap.get(v.trip.trip_id);
         if (trip != null) {
-            let route = routeMap.get(trip.route_id)
-            v.vehicle.label = route.route_short_name
-            v.vehicle.type = route.route_type
+            let route = routeMap.get(trip.route_id);
+            v.vehicle.label = route.route_short_name;
+            v.vehicle.type = route.route_type;
         }
         return v;
     });
@@ -119,17 +124,17 @@ function enrichVehicles(data) {
 function addVehicles(data) {
     data.forEach(v => {
         if (v.vehicle.type === utils.TRANSPORT.TRAIN) {
-            addVehicle(v, marker_id_map_train, layer_train)
+            addVehicle(v, marker_id_map_train, layer_train);
         } else if (v.vehicle.type === utils.TRANSPORT.METRO) {
-            addVehicle(v, marker_id_map_metro, layer_metro)
+            addVehicle(v, marker_id_map_metro, layer_metro);
         } else if (v.vehicle.type === utils.TRANSPORT.BUS) {
-            addVehicle(v, marker_id_map_bus, layer_bus)
+            addVehicle(v, marker_id_map_bus, layer_bus);
         } else if (v.vehicle.type === utils.TRANSPORT.TRAM) {
-            addVehicle(v, marker_id_map_tram, layer_tram)
+            addVehicle(v, marker_id_map_tram, layer_tram);
         } else if (v.vehicle.type === utils.TRANSPORT.VESSEL) {
-            addVehicle(v, marker_id_map_vessel, layer_vessel)
+            addVehicle(v, marker_id_map_vessel, layer_vessel);
         } else {
-            addVehicle(v, marker_id_map_unknown, layer_unknown)
+            addVehicle(v, marker_id_map_unknown, layer_unknown);
         }
     });
 }
