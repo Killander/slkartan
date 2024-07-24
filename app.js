@@ -21,9 +21,10 @@ const types = {
 const root = path.normalize(path.resolve(directoryName));
 
 const server = http.createServer((req, res) => {
-    //console.log(`${req.method} ${req.url}`);
-
-    const extension = path.extname(req.url).slice(1);
+    // Strip query parameters
+    const parsedUrl = new URL(req.url, `http://${req.headers.host}`);
+    const pathname = parsedUrl.pathname;
+    const extension = path.extname(pathname).slice(1);
     const type = extension ? types[extension] : types.html;
     const supportedExtension = Boolean(type);
 
@@ -35,15 +36,15 @@ const server = http.createServer((req, res) => {
         return;
     }
 
-    let fileName = req.url;
-    if (req.url === '/') {
+    let fileName = pathname;
+    if (pathname === '/') {
         fileName = 'index.html';
     } else if (!extension) {
         try {
-            fs.accessSync(path.join(root, req.url + '.html'), fs.constants.F_OK);
-            fileName = req.url + '.html';
+            fs.accessSync(path.join(root, pathname + '.html'), fs.constants.F_OK);
+            fileName = pathname + '.html';
         } catch (e) {
-            fileName = path.join(req.url, 'index.html');
+            fileName = path.join(pathname, 'index.html');
         }
     }
 

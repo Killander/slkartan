@@ -47,6 +47,14 @@ export function init() {
 
     locationControl.addLocateMeControl();
     locationControl.locateMe();
+
+    // Fill the search bar with value from URL
+    const params = new URLSearchParams(window.location.search);
+    const filter = params.get('filter');
+    if (filter) {
+        const searchBar = document.getElementById('searchBar');
+        searchBar.value = filter;
+    }
 }
 
 function addVehicle(vehicle, marker_id_map, layer) {
@@ -76,6 +84,14 @@ function addVehicle(vehicle, marker_id_map, layer) {
     }
 
     newVehicle.bindPopup('<pre>' + JSON.stringify(vehicle, null, '  ') + '</pre>');
+
+    // Filter based on search bar input
+    const query = document.getElementById('searchBar').value.toLowerCase().trim();
+    if (query === '' || vehicle.vehicle.label.toLowerCase().includes(query)) {
+        newVehicle.addTo(map);
+    } else {
+        map.removeLayer(newVehicle);
+    }
 }
 
 export function getVehicles() {
