@@ -57,18 +57,18 @@ export function init() {
     }
 }
 
-function addVehicle(vehicle, marker_id_map, layer) {
+function addVehicle(entity, marker_id_map, layer) {
+    let vehicle = entity.vehicle;
     let id = vehicle.vehicle.id;
     let latitude = vehicle.position.latitude;
     let longitude = vehicle.position.longitude;
 
     let newVehicle;
     if (marker_id_map.has(id)) {
-        newVehicle = layer.getLayer(marker_id_map.get(id))
+        newVehicle = layer.getLayer(marker_id_map.get(id));
         newVehicle.slideTo([latitude, longitude], {
             duration: 2500, keepAtCenter: false
         });
-
     } else {
         newVehicle = L.marker([latitude, longitude], {
             icon: L.divIcon({
@@ -83,11 +83,11 @@ function addVehicle(vehicle, marker_id_map, layer) {
         marker_id_map.set(id, marker_id);
     }
 
-    newVehicle.bindPopup('<pre>' + JSON.stringify(vehicle, null, '  ') + '</pre>');
+    newVehicle.bindPopup('<pre>' + JSON.stringify(entity, null, '  ') + '</pre>');
 
     // Filter based on search bar input
     const query = document.getElementById('searchBar').value.toLowerCase().trim();
-    if (query === '' || vehicle.vehicle.label.toLowerCase().includes(query)) {
+    if (query === '' || vehicle.label.toLowerCase().includes(query)) {
         newVehicle.addTo(map);
     } else {
         map.removeLayer(newVehicle);
@@ -108,8 +108,8 @@ export function getVehicles() {
             const obj = FeedMessage.read(pbf);
             return obj.entity;
         })
-        .then(data => data.map(x => x.vehicle))
-        .then(data => data.filter(x => !!x.trip))
+        .then(data => data.filter(x => !!x.vehicle))
+        .then(data => data.filter(x => !!x.vehicle.trip))
         .then(data => enrichVehicles(data))
         .then(data => addVehicles(data))
         .catch(error => {
@@ -126,31 +126,32 @@ function delay(time) {
 }
 
 function enrichVehicles(data) {
-    return data.map(v => {
-        let trip = tripMap.get(v.trip.trip_id);
+    return data.map(entity => {
+        let trip = tripMap.get(entity.vehicle.trip.trip_id);
         if (trip != null) {
             let route = routeMap.get(trip.route_id);
-            v.vehicle.label = route.route_short_name;
-            v.vehicle.type = route.route_type;
+            entity.vehicle.vehicle.label = route.route_short_name;
+            entity.vehicle.vehicle.type = route.route_type;
         }
-        return v;
+        return entity;
     });
 }
 
 function addVehicles(data) {
-    data.forEach(v => {
-        if (v.vehicle.type === utils.TRANSPORT.TRAIN) {
-            addVehicle(v, marker_id_map_train, layer_train);
-        } else if (v.vehicle.type === utils.TRANSPORT.METRO) {
-            addVehicle(v, marker_id_map_metro, layer_metro);
-        } else if (v.vehicle.type === utils.TRANSPORT.BUS) {
-            addVehicle(v, marker_id_map_bus, layer_bus);
-        } else if (v.vehicle.type === utils.TRANSPORT.TRAM) {
-            addVehicle(v, marker_id_map_tram, layer_tram);
-        } else if (v.vehicle.type === utils.TRANSPORT.VESSEL) {
-            addVehicle(v, marker_id_map_vessel, layer_vessel);
+    data.forEach(entity => {
+        let type = entity.vehicle.vehicle.type;
+        if (type === utils.TRANSPORT.TRAIN) {
+            addVehicle(entity, marker_id_map_train, layer_train);
+        } else if (type === utils.TRANSPORT.METRO) {
+            addVehicle(entity, marker_id_map_metro, layer_metro);
+        } else if (type === utils.TRANSPORT.BUS) {
+            addVehicle(entity, marker_id_map_bus, layer_bus);
+        } else if (type === utils.TRANSPORT.TRAM) {
+            addVehicle(entity, marker_id_map_tram, layer_tram);
+        } else if (type === utils.TRANSPORT.VESSEL) {
+            addVehicle(entity, marker_id_map_vessel, layer_vessel);
         } else {
-            addVehicle(v, marker_id_map_unknown, layer_unknown);
+            addVehicle(entity, marker_id_map_unknown, layer_unknown);
         }
     });
 }
