@@ -1,27 +1,29 @@
-import * as pb from './gtfs-realtime.browser.proto.js';
-import * as pbf from './pbf.js';
-import * as utils from './utils.js';
-import * as locationControl from './location.js';
+// Import necessary modules
+import * as pb from './gtfs-realtime.browser.proto.js'; // GTFS Protocol Buffers definition
+import * as pbf from './pbf.js'; // Protocol Buffers library
+import * as utils from './utils.js'; // Utilities for transport type icons
+import * as locationControl from './location.js'; // Custom location controls
 
-// init
+// API key for Trafiklab GTFS real-time data
 const trafiklab_api_key = "a2242a4330664e1ba8179c3cb677f9ff";
 
-let config = {
-    minZoom: 7, maxZoom: 18,
-};
-const initial_lat = 59.3265;
-const initial_lng = 18.0644;
-const initial_zoom = 13;
+// Map configuration and initial settings
+const config = { minZoom: 7, maxZoom: 18 };
+const initial_lat = 59.3265, initial_lng = 18.0644, initial_zoom = 13;
+
+// Initialize map and base layer
 export const map = L.map("map", config).setView([initial_lat, initial_lng], initial_zoom);
 const lightMap = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
+// Layer groups for different transport types
 const layer_train = L.layerGroup().addTo(map);
 const layer_metro = L.layerGroup().addTo(map);
 const layer_bus = L.layerGroup().addTo(map);
 const layer_tram = L.layerGroup().addTo(map);
 const layer_vessel = L.layerGroup().addTo(map);
-const layer_unknown = L.layerGroup().addTo(map);
+const layer_unknown = L.layerGroup().addTo(map); // Fallback for undefined types
 
+// Maps to track markers by vehicle ID (per transport type)
 const marker_id_map_train = new Map();
 const marker_id_map_metro = new Map();
 const marker_id_map_bus = new Map();
@@ -29,66 +31,62 @@ const marker_id_map_tram = new Map();
 const marker_id_map_vessel = new Map();
 const marker_id_map_unknown = new Map();
 
+// Caches for route and trip data
 const routeMap = new Map();
 const tripMap = new Map();
 
+// Initializes the map and data loading
 export function init() {
+    // Load routes and trips, then start real-time updates
     Promise.all([
-        fetch('./routes.json').then(response => response.json())
-            .then(response => response.forEach(r => routeMap.set(r.route_id, r))),
-        fetch('./trips.json').then(response => response.json())
-            .then(response => response.forEach(t => tripMap.set(t.trip_id, t))),
-    ]).then(([data1, data2]) => {
-        getVehicles();
-        const interval = setInterval(getVehicles, 2000);
-    }).catch((err) => {
-        console.log(err);
-    });
+        fetch('./routes.json').then(res => res.json()).then(data => data.forEach(r => routeMap.set(r.route_id, r))),
+        fetch('./trips.json').then(res => res.json()).then(data => data.forEach(t => tripMap.set(t.trip_id, t))),
+    ])
+    .then(() => {
+        getVehicles(); // Initial fetch
+        setInterval(getVehicles, 2000); // Fetch every 2 seconds
+    })
+    .catch(console.error);
 
+    // Locate me functions
     locationControl.addLocateMeControl();
     locationControl.locateMe();
 
-    // Fill the search bar with value from URL
+    // Populate search bar from URL parameters, if present
     const params = new URLSearchParams(window.location.search);
     const filter = params.get('filter');
-    if (filter) {
-        const searchBar = document.getElementById('searchBar');
-        searchBar.value = filter;
-    }
+    if (filter) document.getElementById('searchBar').value = filter;
 }
 
+// Fetches vehicle positions from GTFS API, applies enrichments, and adds to map
 export function getVehicles() {
     let interval;
     fetch("https://opendata.samtrafiken.se/gtfs-rt/sl/VehiclePositions.pb?key=" + trafiklab_api_key)
         .then(response => {
-            if (!response.ok) {
-                throw response;
-            }
+            if (!response.ok) throw response;
             return response.arrayBuffer();
         })
         .then(data => {
             const pbf = new Pbf(new Uint8Array(data));
             const obj = FeedMessage.read(pbf);
-            return obj.entity;
+            // Return filtered valid vehicles with trips
+            return obj.entity.filter(e => e.vehicle && e.vehicle.trip);
         })
-        .then(data => data.filter(x => !!x.vehicle))
-        .then(data => data.filter(x => !!x.vehicle.trip))
-        .then(data => enrichVehicles(data))
-        .then(data => addVehicles(data))
-        .catch(error => {
-            console.error('There was a problem fetching vehicles:', error);
+        .then(enrichVehicles)
+        .then(addVehicles)
+        .catch(err => {
+            console.error('Error fetching vehicles:', err);
             clearInterval(interval);
-            const five_minutes = 5 * 60 * 1000;
-            console.log('Retrying fetch in 5 minutes');
-            delay(five_minutes).then(() => interval = setInterval(getVehicles, 2000));
+            delay(5 * 60 * 1000).then(() => interval = setInterval(getVehicles, 2000)); // Retry after 5 mins
         });
 }
 
+// Enrich vehicle data with route information (adds labels and type)
 function enrichVehicles(data) {
     return data.map(entity => {
-        let trip = tripMap.get(entity.vehicle.trip.trip_id);
-        if (trip != null) {
-            let route = routeMap.get(trip.route_id);
+        const trip = tripMap.get(entity.vehicle.trip.trip_id);
+        if (trip) {
+            const route = routeMap.get(trip.route_id);
             entity.vehicle.vehicle.label = route.route_short_name;
             entity.vehicle.vehicle.type = route.route_type;
         }
@@ -96,9 +94,10 @@ function enrichVehicles(data) {
     });
 }
 
+// Adds enriched vehicle data to the map by transport type
 function addVehicles(data) {
     data.forEach(entity => {
-        let type = entity.vehicle.vehicle.type;
+        const type = entity.vehicle.vehicle.type;
         if (type === utils.TRANSPORT.TRAIN) {
             addVehicle(entity, marker_id_map_train, layer_train);
         } else if (type === utils.TRANSPORT.METRO) {
@@ -115,20 +114,18 @@ function addVehicles(data) {
     });
 }
 
+// Manages individual vehicle markers: updates position or adds new marker if absent
 function addVehicle(entity, marker_id_map, layer) {
-    let vehicle = entity.vehicle;
-    let id = vehicle.vehicle.id;
-    let latitude = vehicle.position.latitude;
-    let longitude = vehicle.position.longitude;
+    const vehicle = entity.vehicle;
+    const id = vehicle.vehicle.id;
+    const { latitude, longitude } = vehicle.position;
 
-    let newVehicle;
+    let marker;
     if (marker_id_map.has(id)) {
-        newVehicle = layer.getLayer(marker_id_map.get(id));
-        newVehicle.slideTo([latitude, longitude], {
-            duration: 2500, keepAtCenter: false
-        });
+        marker = layer.getLayer(marker_id_map.get(id));
+        marker.slideTo([latitude, longitude], { duration: 2500, keepAtCenter: false }); // Smooth transition
     } else {
-        newVehicle = L.marker([latitude, longitude], {
+        marker = L.marker([latitude, longitude], {
             icon: L.divIcon({
                 html: utils.getVehicleIconForTransport(vehicle.vehicle.type),
                 className: "svg-icon",
@@ -136,22 +133,23 @@ function addVehicle(entity, marker_id_map, layer) {
             })
         });
 
-        layer.addLayer(newVehicle);
-        let marker_id = layer.getLayerId(newVehicle);
-        marker_id_map.set(id, marker_id);
+        layer.addLayer(marker);
+        marker_id_map.set(id, layer.getLayerId(marker));
     }
 
-    newVehicle.bindPopup('<pre>' + JSON.stringify(entity, null, '  ') + '</pre>');
+    // Attach popup with vehicle details
+    marker.bindPopup('<pre>' + JSON.stringify(entity, null, '  ') + '</pre>');
 
-    // Filter based on search bar input
+    // Filter marker visibility based on search bar input
     const query = document.getElementById('searchBar').value.toLowerCase().trim();
     if (query === '' || vehicle.label.toLowerCase().includes(query)) {
-        newVehicle.addTo(map);
+        marker.addTo(map);
     } else {
-        map.removeLayer(newVehicle);
+        map.removeLayer(marker);
     }
 }
 
+// Utility to add delay in execution (e.g., retrying fetch after an error)
 function delay(time) {
     return new Promise(resolve => setTimeout(resolve, time));
 }
