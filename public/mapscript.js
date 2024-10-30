@@ -142,7 +142,7 @@ function addVehicle(entity, marker_id_map, layer) {
 
     // Filter marker visibility based on search bar input
     const query = document.getElementById('searchBar').value.toLowerCase().trim();
-    if (query === '' || vehicle.label.toLowerCase().includes(query)) {
+    if (query === '' || vehicle.vehicle.label.toLowerCase().includes(query)) {
         marker.addTo(map);
     } else {
         map.removeLayer(marker);
